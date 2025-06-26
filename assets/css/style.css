@@ -1,0 +1,101 @@
+    body {
+      background-color:#F5F5DC;
+    }
+
+    .my-navbar {
+      background-color: #6F4E37;
+      padding: 10px 15px;
+      color: white;
+    }
+
+    .my-navbar .navbar-brand {
+      color: white;
+    }
+
+    .my-accordion-item .accordion-button {
+      background-color: pink;
+      color: #6F4E37;
+      border: none;
+      text-align: left;
+      font-weight: normal;
+    }
+
+    .my-accordion-item .accordion-button:focus {
+      box-shadow: 0 0 0 0.25rem rgba(255, 255, 255, 0.25);
+    }
+    
+    .my-accordion-item .accordion-button:hover {
+      background-color: #FFAABE;
+      font-weight: bold;
+    }
+
+    .my-accordion-item .accordion-button:not(.collapsed) {
+      background-color: #FFAABE;
+      color: #6F4E37;
+      font-weight: bold;
+    }
+
+    .my-accordion-item .accordion-button:not(.collapsed)::after {
+      filter: invert(30%) sepia(40%) saturate(1500%) hue-rotate(330deg) brightness(80%) contrast(100%);
+    }
+
+    .my-accordion-item .accordion-body {
+      background-color: #fff5f7;
+      padding: 0.5rem;
+    }
+
+    .accordion-item {
+      margin-bottom: 1rem;
+    }
+
+    .accordion-item1 {
+      margin-bottom: 0rem;
+    }
+
+    .my-accordion-item ul {
+      list-style: none;
+      padding: 0;
+      margin: 0;
+    }
+
+    .my-accordion-item ul li:hover {
+      background-color: #FFAABE;
+      font-weight: bold;
+    }
+
+    .my-accordion-item ul li a {
+      display: block;
+      padding: 8px 15px;
+      color: #6F4E37;
+      text-decoration: none;
+    }
+
+    footer {
+      background-color: #6F4E37;
+      color: white;
+      padding: 10px;
+      text-align: center;
+      margin-top: 30px;
+    }
+
+    /* ネストされたアコーディオンの装飾（任意） */
+    .accordion .accordion {
+      margin-left: 1rem;
+      background-color: #ffe6ee;
+    }
+    
+    table, th, td {
+      margin: 1rem;
+      padding: 1rem;
+      border: 1px solid black;
+      border-collapse: collapse;
+      color: #6F4E37;
+    }
+    
+    th {
+      background-color: pink;
+    }
+    td {
+      
+      background-color: #fff5f7;
+    }
